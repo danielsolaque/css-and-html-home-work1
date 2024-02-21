@@ -1,0 +1,124 @@
+body {
+    font-family: "Young Serif", Sans-Serif;
+    background-color: hsl(30, 54%, 90%);
+    line-height: 1.5;
+}
+
+.box {
+    background-color: white;
+    width: 40%;
+        /* Ancho del bloque */
+    margin: auto;
+        /* Centrar horizontalmente */
+    margin-top: 100px;
+        /* Margen superior */
+    margin-bottom: 100px;
+        /* Margen inferior */
+    padding: 50px;
+        /* Relleno interno */
+    border-radius: 20px; 
+}
+.box img {
+    display: block;
+    /* Hace que la imagen sea un bloque para aplicar margen automático */
+    margin: auto;
+    /* Centra horizontalmente la imagen */
+    max-width: 100%;
+    /* Ajusta el ancho máximo de la imagen al ancho del contenedor */
+    border-radius: 20px;
+}
+
+.internal-block{
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+
+}
+  h1 {
+      font-size: 32px;
+      /* Cambiar el tamaño de fuente */
+      font-family:'Outfit';
+  }
+
+  h3 {
+      font-size: 28 px;
+      /* Cambiar el tamaño de fuente */
+      color: hsl(332, 51%, 32%);  
+      font-family:'Outfit';
+  }
+
+    h4 {
+      font-size: 23 px;
+      /* Cambiar el tamaño de fuente */
+      color: hsl(332, 51%, 32%);
+  }
+
+  ul {
+      margin-top: 10px;
+      /* Margen superior entre el primer elemento de la lista y el contenedor */
+      margin-bottom: 10px;
+      /* Margen inferior entre el último elemento de la lista y el contenedor */
+
+  }
+
+  ul li {
+   
+    padding-left: 1em; /* Agregar un poco de espacio entre el punto y el texto */
+    margin-top: 10px;
+        /* Margen superior entre el primer elemento de la lista y el contenedor */
+    margin-bottom: 10px;
+        /* Margen inferior entre el último elemento de la lista y el contenedor */
+    
+  }
+
+ ol {
+    color: hsl(332, 51%, 32%);
+    margin-top: 10px;
+    /* Margen superior entre el primer elemento de la lista y el contenedor */
+    margin-bottom: 10px;
+    /* Margen inferior entre el último elemento de la lista y el contenedor */
+  }
+
+ ol li {
+    margin-top: 10px;
+        /* Margen superior entre el primer elemento de la lista y el contenedor */
+    margin-bottom: 10px;
+        /* Margen inferior entre el último elemento de la lista y el contenedor */
+    line-height: 1.5;
+        /* Interlineado del 150% del tamaño de fuente */
+    color: black;
+    }
+
+ .special-list {
+      margin-top: 10px;
+      /* Margen superior entre el primer elemento de la lista y el contenedor */
+      margin-bottom: 10px;
+      /* Margen inferior entre el último elemento de la lista y el contenedor */
+      list-style: none;
+  }
+
+  .special-list li {
+   
+    padding-left: 1em; /* Agregar un poco de espacio entre el punto y el texto */
+    margin-top: 10px;
+        /* Margen superior entre el primer elemento de la lista y el contenedor */
+    margin-bottom: 10px;
+        /* Margen inferior entre el último elemento de la lista y el contenedor */
+
+  }
+
+.nutrition-property {
+    color: black; /* Color del texto para las propiedades nutricionales */
+}
+
+.nutrition-value {
+    color: hsl(332, 51%, 32%); /* Color rojo para los valores nutricionales */
+    margin-left: 100px; /* Espacio entre la propiedad y el valor */
+}
+
+ .horizontal-line {
+    border: none;
+    border-top: 1px solid #ccc; /* Color de la línea */
+    margin-top: 20px; /* Margen superior */
+    margin-bottom: 20px; /* Margen inferior */
+    }
+
